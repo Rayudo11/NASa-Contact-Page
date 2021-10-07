@@ -1,0 +1,41 @@
+
+.header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+}
+
+ img{
+     width: 100%;
+     height: auto;
+     background-size:cover;
+ }
+h1 {
+    color:White;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main{
+      
+}
+
+.section1{
+    display:grid;
+    grid-template-columns: repeat (3, 1fr);
+  
+}
+.class1{
+background-color: Gray;
+
+}
+.class2{
+background-color: gray;
+}
+.class3{
+    background-color: gray;   
+
+}
